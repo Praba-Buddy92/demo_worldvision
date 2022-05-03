@@ -1,0 +1,74 @@
+
+$primary-color: #ff7648;
+$font-size-small: 16px;
+$font-weight-normal: 400;
+$line-height-normal: normal;
+$font-size-medium:40px;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: $font-size-small;
+    font-size: 1rem;
+    line-height: normal
+}
+
+a,
+a:hover {
+    text-decoration: none
+}
+h1 {
+    font-family: Heebo, sans-serif;
+    font-weight: 700;
+    font-size: 54px
+}
+h2 {
+    font-family: Heebo, sans-serif;
+    font-weight: 700;
+    font-size: 42px
+}
+h3 {
+    font-family: Heebo, sans-serif;
+    font-weight: 500;
+    font-size: 30px
+}
+h4 {
+    font-weight: 500;
+    font-size: 24px
+}
+h5 {
+    font-weight: 500;
+    font-size: 20px
+}
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16px
+}
+textarea {
+    resize: none;
+    height: 120px!important;
+    padding: 1rem 1.5rem!important
+}
+.btn {
+    color: #fff;
+}
+.btn-md {
+    padding: 12px 3rem
+}
+.btn-primary {
+    background-color:$primary-color ;
+    transform: translateY(0);
+    border: none;
+    transition: .15s ease-in-out;
+    border-radius: 6px
+}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: $primary-color !important;
+    outline: 0;
+    box-shadow: 0 0 0 0 transparent!important
+}
